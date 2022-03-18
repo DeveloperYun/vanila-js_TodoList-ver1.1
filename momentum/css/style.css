@@ -1,3 +1,55 @@
 .hidden{
     display: none;
 }
+op{
+    font-family: 'Noto Serif KR', serif;
+    color: blanchedalmond;
+    text-align: center;
+}
+p{
+    font-family: 'Nanum Brush Script', cursive;
+}
+#clock-container{
+    margin-top: 5%;
+}
+
+#clock{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 100px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#weather{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    font-size: larger;
+}
+
+#quote{
+    font-size: 30px;
+}
+
+#bg{
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+#greeting{
+    color: burlywood;
+}

@@ -3,10 +3,11 @@ const images = [
     "1.jpg",
     "2.jpg"
 ]
-
-const chosenImage = images[Math.floor(Math.random() * images.length)]
+const image = Math.floor(Math.random() * images.length);
+const chosenImage = images[image]
 
 const bgImage = document.createElement("img")
+bgImage.id = "bg"
 bgImage.src = `img/${chosenImage}`
 
 // 이를 body에 추가해줘야 하므로 appendChild를 쓴 것
